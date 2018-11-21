@@ -14,6 +14,7 @@ to download a simple application, help you to communicate with Vx520.
 - Status
 
 Tutorial:
+
 1- Create a reference from class "Manage". Example: Manage MR = new Manage();
     Manage Class contains these Attributes:
       - boolean status: return true or false.
@@ -23,8 +24,10 @@ Tutorial:
       - Settlement settlement: Class has all attribute of settlement response.
       - boolean transactionfound: return true when Vx520 return a transaction response.
       - Transaction transaction: Class has all attribute of transaction response.
+
 2- Create a reference from class "AreebaPOS". Example: AreebaPOS apos = new AreebaPOS(COM);
   COM is a string variable containing the name of the serial port. Example: "COM1"
+
 3- We have three methods to use:
    - SendTestToPOS: to test the connectivity of Vx520.
    - SendTransactionToPOS(String TypeRequest, String Reference, String Amount, String Currency): Send a transaction to Vx520:
