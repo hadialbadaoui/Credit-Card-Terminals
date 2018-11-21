@@ -29,13 +29,17 @@ Tutorial:
   COM is a string variable containing the name of the serial port. Example: "COM1"
 
 3- We have three methods to use:
-   - SendTestToPOS: to test the connectivity of Vx520.
-   - SendTransactionToPOS(String TypeRequest, String Reference, String Amount, String Currency): Send a transaction to Vx520:
-      . TypeRequest: "Sale", "Refund" and "Void".
-      . Reference: Should be 8 digits.
-      . Amount: Should be 12 digits.
-      . Currency: Should be ($/USD) or (LL/LBP).
-      This function return a class Manage.
+   - SendTestToPOS: 
+        to test the connectivity of Vx520.
+   - SendTransactionToPOS(String TypeRequest, String Reference, String Amount, String Currency): 
+        Send a transaction to Vx520:
+          . TypeRequest: "Sale", "Refund" and "Void".
+          . Reference: Should be 8 digits.
+          . Amount: Should be 12 digits.
+          . Currency: Should be ($/USD) or (LL/LBP).
+          
+        This function return a class Manage.
+        
    - SendSettlementToPOS: This function return a class Manage.
 
 Thank you, best regards.
