@@ -33,9 +33,13 @@ Tutorial:
         to test the connectivity of Vx520.
    - SendTransactionToPOS(String TypeRequest, String Reference, String Amount, String Currency): 
         Send a transaction to Vx520:
+        
           . TypeRequest: "Sale", "Refund" and "Void".
+          
           . Reference: Should be 8 digits.
+          
           . Amount: Should be 12 digits.
+          
           . Currency: Should be ($/USD) or (LL/LBP).
           
         This function return a class Manage.
