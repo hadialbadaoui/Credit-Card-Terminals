@@ -27,6 +27,8 @@ Tutorial:
 
 2- Create a reference from class "AreebaPOS". Example: AreebaPOS apos = new AreebaPOS(COM);
   COM is a string variable containing the name of the serial port. Example: "COM1"
+  
+  # Now you can create a reference from class "AreebaPOS" without parameter: the library will return the name of COM connected to serial port of Vx520.
 
 3- We have three methods to use:
    - SendTestToPOS: 
